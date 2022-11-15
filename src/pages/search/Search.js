@@ -20,7 +20,7 @@ export default function Search() {
       <h2 className="page-title">Recipes including "{query}"</h2>
       {error && <p className='error'>{error}</p> }
       {isPending && <p className="loading">Loading...</p> }
-      {data && <RecipeList recipe={data}/>}
+      {data && <RecipeList recipes={data}/>}
     </div>
   )
 }
