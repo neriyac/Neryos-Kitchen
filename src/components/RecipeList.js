@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 //styles
 import './RecipeList.css'
 
@@ -10,7 +10,7 @@ export default function RecipeList({ recipes }) {
             <h3>{recipe.title}</h3>
             <p>{recipe.cookingTime} to make.</p>
             <div>{recipe.method.substring(0,100)}...</div>
-            <NavLink to={`/recipes/${recipe.id}`}>Cook This !</NavLink>
+            <Link to={`/recipes/${recipe.id}`}>Cook This !</Link>
         </div>
       ))}
     </div>
