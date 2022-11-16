@@ -10,7 +10,7 @@ export default function ThemeSelector() {
 
   return (
     <div className='theme-selector'>
-      <div className="theme-buttons"></div>
+      <div className="theme-buttons">
       {themeColors.map(color => (
         <div
             key={color}
@@ -18,6 +18,7 @@ export default function ThemeSelector() {
             style={{ background: color }}
         />
       ))}
+      </div>
     </div>
   )
 }
