@@ -36,6 +36,19 @@
       ],
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes"
+    },
+    {
+      "title": "Amit Levi",
+      "ingredients": [
+        "Pray",
+        "Pray more",
+        "keep praying !!!!",
+        "that's not enough...",
+        "you need to pray the hell out of you !"
+      ],
+      "method": "do all the praying for like 10 years and you got 0.00000000001% chance of success.",
+      "cookingTime": "5258880 minutes",
+      "id": "rWUc5Mp"
     }
   ]
 }
