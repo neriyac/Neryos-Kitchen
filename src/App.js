@@ -1,4 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { useTheme } from './hooks/useTheme'
 
 
 //page components
@@ -11,7 +12,6 @@ import ThemeSelector from './components/ThemeSelector'
 
 //styles
 import './App.css'
-import { useTheme } from './hooks/useTheme'
 
 function App() {
 

@@ -34,3 +34,7 @@
   background: #555;
   color: #e4e4e4;
 }
+/* dark mode */
+.recipe.dark div {
+  color: #e4e4e4;
+}
